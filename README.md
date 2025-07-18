@@ -74,24 +74,6 @@ Analicé detalladamente los requerimientos de la prueba técnica y diseñé con 
 | **Seeder** | `ProductSeeder.php` | `database/seeders/` | Datos de prueba productos |
 | **Routes** | `web.php` | `routes/` | Rutas de la aplicación |
 
-### Rutas Implementadas
-
-| Método | Ruta | Controlador | Acción |
-|--------|------|-------------|---------|
-| GET | `/dashboard` | `DashboardController@index` | Catálogo principal |
-| GET | `/categories` | `CategoryController@index` | Lista categorías |
-| GET | `/categories/create` | `CategoryController@create` | Formulario crear |
-| POST | `/categories` | `CategoryController@store` | Guardar categoría |
-| GET | `/categories/{id}/edit` | `CategoryController@edit` | Formulario editar |
-| PUT | `/categories/{id}` | `CategoryController@update` | Actualizar categoría |
-| DELETE | `/categories/{id}` | `CategoryController@destroy` | Eliminar categoría |
-| GET | `/products` | `ProductController@index` | Lista productos |
-| GET | `/products/create` | `ProductController@create` | Formulario crear |
-| POST | `/products` | `ProductController@store` | Guardar producto |
-| GET | `/products/{id}/edit` | `ProductController@edit` | Formulario editar |
-| PUT | `/products/{id}` | `ProductController@update` | Actualizar producto |
-| DELETE | `/products/{id}` | `ProductController@destroy` | Eliminar producto |
-
 **Comentario:** No había utilizado Laravel anteriormente, tuve algunos problemas iniciales con la sintaxis de PHP, pero resultó muy cómodo y práctico para desarrollar el backend.
 
 ---
